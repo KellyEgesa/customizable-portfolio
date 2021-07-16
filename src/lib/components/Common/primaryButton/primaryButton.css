@@ -1,0 +1,19 @@
+.primaryButton {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+
+  line-height: normal;
+
+  text-align: center;
+
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 70px;
+  box-shadow: 3px 2px #ffd98f;
+
+  cursor: pointer;
+
+  background-color: white;
+  color: #4b4242;
+}

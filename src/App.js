@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PrimaryButton from "./lib/components/Common/primaryButton/primaryButton";
+import logo from "./logo.svg";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <PrimaryButton buttonText={"Trial Trial"} />
+        {/* <IconRow icons={LandingPageIcons.icons} /> */}
       </header>
     </div>
   );
