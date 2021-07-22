@@ -1,0 +1,29 @@
+.userName {
+  margin: auto;
+  font-family: Portfolio-Bold;
+
+  font-size: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.title {
+  font-family: Portfolio;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(75, 66, 66, 0.8);
+}
+
+.homepage {
+  position: relative;
+  height: 100vh;
+}
+
+.profile {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

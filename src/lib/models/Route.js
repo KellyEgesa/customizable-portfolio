@@ -1,7 +1,8 @@
 export class Route {
-  constructor({ routeName, route }) {
+  constructor({ routeName, route, routeIcon }) {
     this.routeName = routeName;
     this.route = route;
+    this.routeIcon = routeIcon;
   }
 
   getRouteName() {
@@ -10,5 +11,9 @@ export class Route {
 
   getRoute() {
     return this.route;
+  }
+
+  getRouteIcon() {
+    return this.routeIcon;
   }
 }

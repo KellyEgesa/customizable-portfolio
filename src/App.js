@@ -1,26 +1,13 @@
 import "./App.css";
-import PrimaryButton from "./lib/components/Common/primaryButton/primaryButton";
-import logo from "./logo.svg";
+import HomePage from "./lib/components/Home/Home";
+import NavBar from "./lib/components/NavBar/NavBar";
+import { Routes } from "./lib/Routes/routes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <PrimaryButton buttonText={"Trial Trial"} />
-        {/* <IconRow icons={LandingPageIcons.icons} /> */}
-      </header>
+      <NavBar navItems={Routes.navBarRoutes} />
+      <HomePage />
     </div>
   );
 }

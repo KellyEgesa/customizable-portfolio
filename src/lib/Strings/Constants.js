@@ -4,17 +4,17 @@ const twitterUrl = "https://twitter.com/K_Egesa";
 const githubUrl = "https://github.com/KellyEgesa";
 
 export class Constants {
-  static linkedin = linkedinUrl;
-  static twitter = twitterUrl;
+  static linkedinUrl = linkedinUrl;
+  static twitterUrl = twitterUrl;
   static githubUrl = githubUrl;
 
   //username
-  static userName = "Bartholomew Kelly Egesa";
+  static userName = "BARTHOLOMEW KELLY EGESA";
 
   //usertitle
   static title = "Fullstack Developer";
 
   //strings
   static contactMe = "Contact Me";
-  static resume = "My Resumes";
+  static resume = "My Resume";
 }
