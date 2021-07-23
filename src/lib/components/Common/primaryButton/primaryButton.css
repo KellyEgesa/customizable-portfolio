@@ -1,21 +1,20 @@
-.primaryButton {
-  font-family: "Open Sans";
+#primaryButton {
+  font-family: Portfolio;
   font-size: 16px;
-  font-weight: 400;
-
-  line-height: normal;
-
   text-align: center;
-
   padding: 10px;
   border-radius: 70px;
   box-shadow: 5px 3px #ffd98f;
-
   cursor: pointer;
-
-  background-color: white;
-  color: #4b4242;
-
   width: 120px;
   margin: auto;
+  color: #4b4242;
+}
+
+.primaryButton {
+  background-color: white;
+}
+
+.primaryButtonAlt {
+  background-color: #e0e4eb;
 }

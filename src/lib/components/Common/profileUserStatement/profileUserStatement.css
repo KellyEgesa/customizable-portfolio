@@ -1,0 +1,23 @@
+.pUSImage {
+  width: 430px;
+  height: 260px;
+  border-radius: 40px;
+}
+.pUSImageCard {
+  width: 460px;
+  padding: 0.5rem;
+  padding-bottom: 1.2rem;
+  margin: auto;
+
+  border-radius: 40px;
+  align-items: center;
+}
+
+.pUSP {
+  font-family: Portfolio-Bold;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 80%;
+}

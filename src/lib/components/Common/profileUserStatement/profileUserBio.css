@@ -1,0 +1,21 @@
+.profileUserBioPH2 {
+  font-family: Portfolio-Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  text-align: left;
+
+  color: #000000;
+}
+
+.profileUserBioP {
+  position: absolute;
+
+  font-family: Portfolio;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+
+  color: rgba(75, 66, 66, 0.8);
+}

@@ -17,4 +17,13 @@ export class Constants {
   //strings
   static contactMe = "Contact Me";
   static resume = "My Resume";
+
+  //
+  static userStatement =
+    "Building tools that will help move the human civilization forward.";
+
+  static profileBio =
+    "A passionate, goal oriented, self-driven and adaptable Android and Full-Stack engineer based in Nairobi, specializing in development of high quality standard Mobile and Web Applications. I have a customer-focused approach to work and focused on the completion of projects and always taking on new challenges.";
+
+  static profile = "PROFILE.";
 }

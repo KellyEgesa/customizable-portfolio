@@ -12,7 +12,10 @@ const HomePage = () => {
         <ProfilePhoto />
         <h1 className="userName">{Constants.userName}</h1>
         <h2 className="title">{Constants.title}</h2>
-        <PrimaryButton buttonText={Constants.resume} />
+        <PrimaryButton
+          buttonText={Constants.resume}
+          buttonClass="primaryButton"
+        />
         <IconRow icons={Routes.iconRoutes} />
       </div>
     </div>

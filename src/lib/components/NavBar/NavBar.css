@@ -2,6 +2,12 @@
   font-size: 18px;
   line-height: 33px;
   font-family: Portfolio;
-
+  cursor: pointer;
   color: #4b4242;
+  margin: 0;
+}
+
+.navItemName:hover {
+  color: #fc9700;
+  border-color: #fc9700;
 }

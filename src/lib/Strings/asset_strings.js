@@ -1,3 +1,5 @@
+//GIFS
+import userStatementImage from "../../assets/GIFS/coding_gif.gif";
 //landing page icons
 import githubIcon from "../../assets/Icons/github_icons.svg";
 import linkedInIcon from "../../assets/Icons/linkedIn_icon.svg";
@@ -27,6 +29,10 @@ export class Route {
 
 export class Pictures {
   static profilePictures = profilePictures;
+}
+
+export class GIFS {
+  static userStatementImage = userStatementImage;
 }
 
 export class LandingPageIcons {

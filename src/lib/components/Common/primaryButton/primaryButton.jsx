@@ -1,8 +1,8 @@
 import "./primaryButton.css";
 const PrimaryButton = (props) => {
-  const { buttonText, buttonAction } = props;
+  const { buttonText, buttonAction, buttonClass } = props;
   return (
-    <div onClick={buttonAction} className="primaryButton">
+    <div id="primaryButton" onClick={buttonAction} className={buttonClass}>
       {buttonText}
     </div>
   );

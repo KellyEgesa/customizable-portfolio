@@ -10,14 +10,17 @@ const IconRow = (props) => {
             return (
               <td key={iconItem.route} className="col p-1 iconCol">
                 <a href={iconItem.route}>
-                  <img src={iconItem.routeIcon} className="iconRowImage" />
+                  <img
+                    src={iconItem.routeIcon}
+                    className="iconRowImage"
+                    alt={iconItem.route}
+                  />
                 </a>
               </td>
             );
           })}
         </tr>
       </table>
-      <div className="row iconRow"></div>
     </div>
   );
 };
