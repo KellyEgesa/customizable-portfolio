@@ -3,12 +3,12 @@ import "./NavBar.css";
 const NavBar = (props) => {
   const { navItems } = props;
   return (
-    <ul class="nav sticky-top justify-content-center">
+    <ul className="nav sticky-top justify-content-center">
       {navItems.map((navItem) => {
         return (
           //implement routing scrollspy
-          <li class="nav-item">
-            <p class="nav-link navItemName">{navItem.routeName}</p>
+          <li className="nav-item">
+            <p className="nav-link navItemName">{navItem.routeName}</p>
           </li>
         );
       })}

@@ -3,14 +3,12 @@ import ProfileUserStatement from "../Common/profileUserStatement/profileUserStat
 import "./profile.css";
 const Profile = () => {
   return (
-    <div className="container">
-      <div className="profile row justify-content-start align-items-center">
-        <div className="col">
-          <ProfileUserStatement />
-        </div>
-        <div className="col">
-          <ProfileUserBio />
-        </div>
+    <div className="profilePage container row">
+      <div className="col p-2">
+        <ProfileUserStatement />
+      </div>
+      <div className="col p-2">
+        <ProfileUserBio />
       </div>
     </div>
   );
