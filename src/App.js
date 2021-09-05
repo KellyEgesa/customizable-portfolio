@@ -6,7 +6,7 @@ import { Routes } from "./lib/Routes/routes";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <NavBar navItems={Routes.navBarRoutes} />
       <HomePage />
       <Profile />

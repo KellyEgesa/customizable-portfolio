@@ -1,6 +1,10 @@
 .profilePage {
   height: 100vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 .col {
   padding: 0;

@@ -1,0 +1,46 @@
+table {
+  margin: auto;
+}
+.profileStatement {
+  font-family: Portfolio;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: rgba(75, 66, 66, 0.8);
+}
+.profileSkillCard {
+  border-radius: 20px;
+  height: 250px;
+  position: relative;
+}
+.profileSkillImageCard {
+  width: 40px;
+  height: 40px;
+  background-color: #78a1d1;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 35px;
+}
+.profileSkillImage {
+  width: 30px;
+  height: 30px;
+}
+#profileTitle {
+  font-family: Portfolio-Bold;
+  font-style: normal;
+  font-weight: 800;
+}
+.button {
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+  font-family: Portfolio;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #78a1d1;
+  border-radius: 70px;
+  cursor: pointer;
+  color: #78a1d1;
+}

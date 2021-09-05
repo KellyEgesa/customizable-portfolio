@@ -7,6 +7,26 @@ body {
   background-color: #e0e4eb;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0px 1px 2px 0px grey;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd98f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fc9700;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

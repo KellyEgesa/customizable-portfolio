@@ -6,6 +6,7 @@ import linkedInIcon from "../../assets/Icons/linkedIn_icon.svg";
 import twitterIcon from "../../assets/Icons/twitter_icon.svg";
 //pictures
 import profilePictures from "../../assets/Images/profile_photo.svg";
+//profileIcons
 
 export class Route {
   constructor({ routeName, route, routeIcon }) {
@@ -40,3 +41,5 @@ export class LandingPageIcons {
   static linkedInIcon = linkedInIcon;
   static twitterIcon = twitterIcon;
 }
+
+export class ProfileBioIcons {}

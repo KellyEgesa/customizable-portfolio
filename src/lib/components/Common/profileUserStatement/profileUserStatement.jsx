@@ -3,6 +3,7 @@ import "./profileUserStatement.css";
 import { GIFS } from "../../../Strings/asset_strings";
 import { Constants } from "../../../Strings/Constants";
 import PrimaryButton from "../primaryButton/primaryButton";
+
 const ProfileUserStatement = () => {
   return (
     <div className="ProfileUserStatement">
